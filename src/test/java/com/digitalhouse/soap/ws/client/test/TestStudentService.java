@@ -19,6 +19,4 @@ public class TestStudentService {
         request.setName("Diogenes");
         assertEquals("5", studentService.studentDetails(request).getStudent().getStandard());
     }
-
-
 }
